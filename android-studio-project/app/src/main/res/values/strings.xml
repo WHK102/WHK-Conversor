@@ -1,0 +1,213 @@
+<resources>
+    <string name="welcome_to">Welcome to</string>
+    <string name="app_name">WHK Conversor</string>
+    <string name="welcome_info">Select an option from the side menu</string>
+
+    <string name="title_menu_main">Main</string>
+
+    <string name="title_menu_file_to_md5sum">File to MD5 checksum</string>
+    <string name="title_menu_file_to_sha1">File to SHA-1 checksum</string>
+    <string name="title_menu_ascii_to_md5">Ascii to MD5</string>
+    <string name="title_menu_ascii_to_rc4">Ascii to RC4 (AES)</string>
+    <string name="title_menu_ascii_to_sha1">Ascii to SHA-1</string>
+    <string name="title_menu_ascii_to_sha256">Ascii to SHA-256</string>
+    <string name="title_menu_ascii_to_sha512">Ascii to SHA-512</string>
+    <string name="title_menu_ascii_to_decimal">Ascii to Decimal</string>
+    <string name="title_menu_decimal_to_ascii">Decimal to Ascii</string>
+    <string name="title_menu_ascii_to_octal">Ascii to Octal</string>
+    <string name="title_menu_octal_to_ascii">Octal to Ascii</string>
+    <string name="title_menu_ascii_to_hexadecimal">Ascii to Hexadecimal</string>
+    <string name="title_menu_hexadecimal_to_ascii">Hexadecimal to Ascii</string>
+    <string name="title_menu_ascii_to_binary">Ascii to Binary</string>
+    <string name="title_menu_binary_to_ascii">Binary to Ascii</string>
+    <string name="title_menu_ascii_to_base64">Ascii to Base64</string>
+    <string name="title_menu_base64_to_ascii">Base64 to Ascii</string>
+    <string name="title_menu_ascii_to_htmlentities">Ascii to Html Entities</string>
+    <string name="title_menu_ascii_to_urlencode">Ascii to Urlencode</string>
+    <string name="title_menu_ascii_to_sqlidw">Ascii to SQLi-DWord</string>
+    <string name="title_menu_ascii_to_enter_the_matrix">Enter the Matrix</string>
+
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation</string>
+
+    <string name="action_convert">Convert</string>
+
+    <string name="convert_trim_input">Trim input text</string>
+    <string name="convert_result_title">Result</string>
+
+    <string name="title_activity_file_choser">Chose file</string>
+    <string name="chose_file_title">File</string>
+    <string name="chose_file">Browse</string>
+    <string name="chose_file_hint">Path to file</string>
+
+    <string name="share_need_output_value">You can not post a empty value</string>
+    <string name="share_using">Share result using</string>
+
+    <!-- Ascii to MD5 -->
+    <string name="hint_input_ascii_to_md5">Plain Ascii text to convert</string>
+    <string name="hint_output_ascii_to_md5">Hash result</string>
+    <string name="input_title_ascii_to_md5">Text to convert</string>
+    <string name="converted_ascii_to_md5">Converted to MD5!</string>
+    <string name="share_subject_ascii_to_md5" formatted="false">%s - String converted to MD5</string>
+    <string name="share_value_ascii_to_md5" formatted="false">The \"%s\" in MD5 hash is: %s</string>
+
+    <!-- Ascii to Decimal -->
+    <string name="hint_input_ascii_to_decimal">Plain Ascii text to convert</string>
+    <string name="hint_output_ascii_to_decimal">Result values</string>
+    <string name="input_title_ascii_to_decimal">Text to convert</string>
+    <string name="converted_ascii_to_decimal">Converted to Decimal!</string>
+    <string name="share_subject_ascii_to_decimal" formatted="false">%s - String converted to Decimal</string>
+    <string name="share_value_ascii_to_decimal" formatted="false">The values of \"%s\" in Decimal is: %s</string>
+
+    <!-- Decimal to Ascii -->
+    <string name="hint_input_decimal_to_ascii">Decimal values (separated by: , . - / or spaces, others are ignored)</string>
+    <string name="hint_output_decimal_to_ascii">Plaintext result Ascii</string>
+    <string name="input_title_decimal_to_ascii">Decimal values</string>
+    <string name="converted_decimal_to_ascii">Converted to Ascii!</string>
+    <string name="share_subject_decimal_to_ascii" formatted="false">%s - Decimal values converted to Ascii</string>
+    <string name="share_value_decimal_to_ascii" formatted="false">The Decimal values of \"%s\" in Ascii text is: %s</string>
+
+    <!-- Ascii to Octal -->
+    <string name="hint_input_ascii_to_octal">Plain Ascii text to convert</string>
+    <string name="hint_output_ascii_to_octal">Result values</string>
+    <string name="input_title_ascii_to_octal">Text to convert</string>
+    <string name="converted_ascii_to_octal">Converted to Octal!</string>
+    <string name="share_subject_ascii_to_octal" formatted="false">%s - String converted to Octal</string>
+    <string name="share_value_ascii_to_octal" formatted="false">The values of \"%s\" in Octal is: %s</string>
+
+    <!-- Octal to Ascii -->
+    <string name="hint_input_octal_to_ascii">Octal values (separated by: , . - / or spaces, others are ignored)</string>
+    <string name="hint_output_octal_to_ascii">Plaintext result Ascii</string>
+    <string name="input_title_octal_to_ascii">Octal values</string>
+    <string name="converted_octal_to_ascii">Converted to Ascii!</string>
+    <string name="share_subject_octal_to_ascii" formatted="false">%s - Octal values converted to Ascii</string>
+    <string name="share_value_octal_to_ascii" formatted="false">The Octal values of \"%s\" in Ascii text is: %s</string>
+
+    <!-- Ascii to Hexadecimal -->
+    <string name="hint_input_ascii_to_hexadecimal">Plain Ascii text to convert</string>
+    <string name="hint_output_ascii_to_hexadecimal">Result values</string>
+    <string name="input_title_ascii_to_hexadecimal">Text to convert</string>
+    <string name="converted_ascii_to_hexadecimal">Converted to Hexadecimal!</string>
+    <string name="option_ascii_to_hexadecimal">Use prefix</string>
+    <string name="share_subject_ascii_to_hexadecimal" formatted="false">%s - String converted to Hexadecimal</string>
+    <string name="share_value_ascii_to_hexadecimal" formatted="false">The values of \"%s\" in Hexadecimal is: %s</string>
+
+    <!-- Hexadecimal to Ascii -->
+    <string name="hint_input_hexadecimal_to_ascii">Hexadecimal values (any format)</string>
+    <string name="hint_output_hexadecimal_to_ascii">Plaintext result Ascii</string>
+    <string name="input_title_hexadecimal_to_ascii">Text to convert</string>
+    <string name="converted_hexadecimal_to_ascii">Converted to Ascii!</string>
+    <string name="share_subject_hexadecimal_to_ascii" formatted="false">%s - Hexadecimal values converted to Ascii</string>
+    <string name="share_value_hexadecimal_to_ascii" formatted="false">The Hexadecimal values of \"%s\" in Ascii text is: %s</string>
+
+    <!-- Ascii to Binary -->
+    <string name="hint_input_ascii_to_binary">Plain Ascii text to convert</string>
+    <string name="hint_output_ascii_to_binary">Result values</string>
+    <string name="input_title_ascii_to_binary">Text to convert</string>
+    <string name="converted_ascii_to_binary">Converted to Binary!</string>
+    <string name="option_ascii_to_binary">Use spaces</string>
+    <string name="share_subject_ascii_to_binary" formatted="false">%s - String converted to Binary</string>
+    <string name="share_value_ascii_to_binary" formatted="false">The values of \"%s\" in Binary is: %s</string>
+
+    <!-- Binary to Ascii -->
+    <string name="hint_input_binary_to_ascii">Binary values (anyway, with or without blanks: 11111111 11111111, 1111111111111111)</string>
+    <string name="hint_output_binary_to_ascii">Plaintext result Ascii</string>
+    <string name="input_title_binary_to_ascii">Binary values</string>
+    <string name="converted_binary_to_ascii">Converted to Ascii!</string>
+    <string name="share_subject_binary_to_ascii" formatted="false">%s - Binary values converted to Ascii</string>
+    <string name="share_value_binary_to_ascii" formatted="false">The Binary values of \"%s\" in Ascii text is: %s</string>
+
+    <!-- Ascii to Base64 -->
+    <string name="hint_input_ascii_to_base64">Plain Ascii text to convert</string>
+    <string name="hint_output_ascii_to_base64">Result value</string>
+    <string name="input_title_ascii_to_base64">Text to convert</string>
+    <string name="converted_ascii_to_base64">Converted to Base64!</string>
+    <string name="share_subject_ascii_to_base64" formatted="false">%s - String converted to Base64</string>
+    <string name="share_value_ascii_to_base64" formatted="false">The value of \"%s\" in Base64 is: %s</string>
+
+    <!-- Base64 to Ascii -->
+    <string name="hint_input_base64_to_ascii">Base64 value</string>
+    <string name="hint_output_base64_to_ascii">Plaintext result Ascii</string>
+    <string name="input_title_base64_to_ascii">Value</string>
+    <string name="converted_base64_to_ascii">Converted to Ascii!</string>
+    <string name="share_subject_base64_to_ascii" formatted="false">%s - Base64 values converted to Ascii</string>
+    <string name="share_value_base64_to_ascii" formatted="false">The Base64 value of \"%s\" in Ascii text is: %s</string>
+
+    <!-- Ascii to Htmlentities -->
+    <string name="hint_input_ascii_to_htmlentities">Plain Ascii text to convert</string>
+    <string name="hint_output_ascii_to_htmlentities">Result values</string>
+    <string name="input_title_ascii_to_htmlentities">Text to convert</string>
+    <string name="converted_ascii_to_htmlentities">Converted to HTML Entties!</string>
+    <string name="share_subject_ascii_to_htmlentities" formatted="false">%s - String converted to Html Entities</string>
+    <string name="share_value_ascii_to_htmlentities" formatted="false">The value of \"%s\" in HTML Entities is: %s</string>
+
+    <!-- Ascii to Urlencode -->
+    <string name="hint_input_ascii_to_urlencode">Plain Ascii text to convert</string>
+    <string name="hint_output_ascii_to_urlencode">Result values</string>
+    <string name="input_title_ascii_to_urlencode">Text to convert</string>
+    <string name="converted_ascii_to_urlencode">Converted to Urlencode!</string>
+    <string name="share_subject_ascii_to_urlencode" formatted="false">%s - String converted to URL Encode</string>
+    <string name="share_value_ascii_to_urlencode" formatted="false">The value of \"%s\" in Url Encode (URI) is: %s</string>
+
+    <!-- Ascii to Sqli DWord -->
+    <string name="hint_input_ascii_to_sqlidw">Plain Ascii text to convert</string>
+    <string name="hint_output_ascii_to_sqlidw">Result value</string>
+    <string name="input_title_ascii_to_sqlidw">Text to convert</string>
+    <string name="converted_ascii_to_sqlidw">Converted to SQL Injection by DWord!</string>
+    <string name="share_subject_ascii_to_sqlidw" formatted="false">%s - String converted to SQL Injection</string>
+    <string name="share_value_ascii_to_sqlidw" formatted="false">The value of \"%s\" in SQL Injection (DWord format) is: %s</string>
+
+    <!-- Ascii to Sha1 -->
+    <string name="hint_input_ascii_to_sha1">Plain Ascii text to convert</string>
+    <string name="hint_output_ascii_to_sha1">Hash result</string>
+    <string name="input_title_ascii_to_sha1">Text to convert</string>
+    <string name="converted_ascii_to_sha1">Converted to SHA1!</string>
+    <string name="share_subject_ascii_to_sha1" formatted="false">%s - String converted to SHA1</string>
+    <string name="share_value_ascii_to_sha1" formatted="false">The \"%s\" in SHA1 hash is: %s</string>
+
+    <!-- Ascii to Sha256 -->
+    <string name="hint_input_ascii_to_sha256">Plain Ascii text to convert</string>
+    <string name="hint_output_ascii_to_sha256">Hash result</string>
+    <string name="input_title_ascii_to_sha256">Text to convert</string>
+    <string name="converted_ascii_to_sha256">Converted to SHA256!</string>
+    <string name="share_subject_ascii_to_sha256" formatted="false">%s - String converted to SHA256</string>
+    <string name="share_value_ascii_to_sha256" formatted="false">The \"%s\" in SHA256 hash is: %s</string>
+
+    <!-- Ascii to Sha512 -->
+    <string name="hint_input_ascii_to_sha512">Plain Ascii text to convert</string>
+    <string name="hint_output_ascii_to_sha512">Hash result</string>
+    <string name="input_title_ascii_to_sha512">Text to convert</string>
+    <string name="converted_ascii_to_sha512">Converted to SHA512!</string>
+    <string name="share_subject_ascii_to_sha512" formatted="false">%s - String converted to SHA512</string>
+    <string name="share_value_ascii_to_sha512" formatted="false">The \"%s\" in SHA512 hash is: %s</string>
+
+    <!-- Ascii to RC4 -->
+    <string name="hint_input_ascii_to_rc4">Plain Ascii text to convert</string>
+    <string name="hint_output_ascii_to_rc4">Hash in hex result</string>
+    <string name="input_title_ascii_to_rc4">Text to convert</string>
+    <string name="output_title_ascii_to_rc4">Result in hex</string>
+    <string name="converted_ascii_to_rc4">Converted to RC4!</string>
+    <string name="arguments_title_ascii_to_rc4">Encryption key</string>
+    <string name="arguments_hint_ascii_to_rc4">Key (length: 128/192/256 bits)</string>
+    <string name="share_subject_ascii_to_rc4" formatted="false">%s - String converted to RC4</string>
+    <string name="share_value_ascii_to_rc4" formatted="false">The value of \"%s\" in RC4 with key \"%s\" is: %s</string>
+
+    <!-- Ascii to Enter The Matrix -->
+    <string name="hint_input_ascii_to_enter_the_matrix">Plain Ascii text to convert</string>
+    <string name="input_title_ascii_to_enter_the_matrix">Text to convert</string>
+    <string name="output_title_ascii_to_enter_the_matrix">Result in 7 Dimensions</string>
+    <string name="converted_ascii_to_enter_the_matrix">The Matrix has you!</string>
+
+    <!-- File to MD5 SUM -->
+    <string name="hint_output_file_to_md5sum">Hash MD5 result</string>
+    <string name="converted_file_to_md5sum">Sum completed!</string>
+    <string name="share_subject_file_to_md5sum" formatted="false">%s - The verification of md5 sum of %s</string>
+    <string name="share_value_file_to_md5sum" formatted="false">The verification of md5 sum of %s file is: %s</string>
+
+    <!-- File to SHA1 SUM -->
+    <string name="hint_output_file_to_sha1sum">Hash SHA1 result</string>
+    <string name="converted_file_to_sha1sum">Sum completed!</string>
+    <string name="share_subject_file_to_sha1sum" formatted="false">%s - The verification of sha1 sum of %s</string>
+    <string name="share_value_file_to_sha1sum" formatted="false">The verification of sha1 sum of %s file is: %s</string>
+
+</resources>
