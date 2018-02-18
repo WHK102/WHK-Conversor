@@ -1,3 +1,4 @@
+
 # WHK Conversor
 
 WHK Converter is the most complete tool for Android that will help you to transform texts and files into multiple types of algorithms.
@@ -43,7 +44,11 @@ This is free, without advertising and open source!. [Available on Play Store](ht
 
 ## Screenshots
 
-![screenshot1] ![screenshot2] ![screenshot3] ![screenshot4] ![screenshot5]
+| CAPTURE          | CAPTURE
+|----------------|----------------|
+| ![screenshot1] | ![screenshot2] |
+| ![screenshot3] | ![screenshot4] |
+| ![screenshot5] |
 
 [screenshot1]: https://raw.githubusercontent.com/WHK102/WHK-Conversor/master/screenshots/1.png
 [screenshot2]: https://raw.githubusercontent.com/WHK102/WHK-Conversor/master/screenshots/2.png
