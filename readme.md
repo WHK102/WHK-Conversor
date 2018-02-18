@@ -1,7 +1,6 @@
-
 # WHK Conversor
 
-WHK Converter is the most complete tool for Android that will help you to transform texts and files into multiple types of algorithms.
+WHK Convertsor is the most complete tool for Android that will help you to transform texts and files into multiple types of algorithms.
 
 
 ## Advantage
